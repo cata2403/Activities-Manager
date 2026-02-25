@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Header Files\domain">
+      <UniqueIdentifier>{2de02d69-bbde-46c6-b7a7-f03102b53ee1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\domain">
+      <UniqueIdentifier>{d6c6a0e5-4ec6-45ac-92d6-b56987f3dbda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\repository">
+      <UniqueIdentifier>{1a1f3f30-340d-46c7-84f9-fcfd0930e1e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\repository">
+      <UniqueIdentifier>{15b97c75-f37e-45ab-a685-cf13ced76539}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\validari">
+      <UniqueIdentifier>{91590d42-d4b7-4a0b-af07-1b71b66f95fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\validari">
+      <UniqueIdentifier>{66e9ebb4-7d15-4673-8559-a27f5b2da4b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\utilitati">
+      <UniqueIdentifier>{e4808211-0e0a-4fb5-8d4d-b8bf0d534ce2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utilitati">
+      <UniqueIdentifier>{0627c38d-52ce-42cc-b09a-ef9fd46c45bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\service">
+      <UniqueIdentifier>{e6c43e0e-fc69-4ae3-bce9-f2ce820d4bbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\service">
+      <UniqueIdentifier>{3d5e1b23-beb5-4d62-9625-7a52de299026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\teste">
+      <UniqueIdentifier>{eb61eacf-6ce1-48b3-85c1-3411cf1e0f37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\teste">
+      <UniqueIdentifier>{84976728-9f74-4833-811d-d29e07e25dcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ui">
+      <UniqueIdentifier>{a4193f70-4926-4ef3-b2a9-810eb1b8fd4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui">
+      <UniqueIdentifier>{03df4f69-00b7-4561-a778-0166590cdb63}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="Lab613.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Activitate.cpp">
+      <Filter>Source Files\domain</Filter>
+    </ClCompile>
+    <ClCompile Include="repo_activitati.cpp">
+      <Filter>Source Files\repository</Filter>
+    </ClCompile>
+    <ClCompile Include="repo_fisiere.cpp">
+      <Filter>Source Files\repository</Filter>
+    </ClCompile>
+    <ClCompile Include="repo_map.cpp">
+      <Filter>Source Files\repository</Filter>
+    </ClCompile>
+    <ClCompile Include="validator.cpp">
+      <Filter>Source Files\validari</Filter>
+    </ClCompile>
+    <ClCompile Include="utilitati.cpp">
+      <Filter>Source Files\utilitati</Filter>
+    </ClCompile>
+    <ClCompile Include="undo.cpp">
+      <Filter>Source Files\service</Filter>
+    </ClCompile>
+    <ClCompile Include="service_activitati.cpp">
+      <Filter>Source Files\service</Filter>
+    </ClCompile>
+    <ClCompile Include="teste_domain.cpp">
+      <Filter>Source Files\teste</Filter>
+    </ClCompile>
+    <ClCompile Include="teste_repo.cpp">
+      <Filter>Source Files\teste</Filter>
+    </ClCompile>
+    <ClCompile Include="teste_service.cpp">
+      <Filter>Source Files\teste</Filter>
+    </ClCompile>
+    <ClCompile Include="teste_validator.cpp">
+      <Filter>Source Files\teste</Filter>
+    </ClCompile>
+    <ClCompile Include="tester.cpp">
+      <Filter>Source Files\teste</Filter>
+    </ClCompile>
+    <ClCompile Include="gui.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="cosCrudGui.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="cosReadOnlyGui.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui_VM.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Models.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Activitate.h">
+      <Filter>Header Files\domain</Filter>
+    </ClInclude>
+    <ClInclude Include="repo_activitati.h">
+      <Filter>Header Files\repository</Filter>
+    </ClInclude>
+    <ClInclude Include="repo_fisiere.h">
+      <Filter>Header Files\repository</Filter>
+    </ClInclude>
+    <ClInclude Include="repo_map.h">
+      <Filter>Header Files\repository</Filter>
+    </ClInclude>
+    <ClInclude Include="validator.h">
+      <Filter>Header Files\validari</Filter>
+    </ClInclude>
+    <ClInclude Include="utilitati.h">
+      <Filter>Header Files\utilitati</Filter>
+    </ClInclude>
+    <ClInclude Include="undo.h">
+      <Filter>Header Files\service</Filter>
+    </ClInclude>
+    <ClInclude Include="service_activitati.h">
+      <Filter>Header Files\service</Filter>
+    </ClInclude>
+    <ClInclude Include="teste_domain.h">
+      <Filter>Header Files\teste</Filter>
+    </ClInclude>
+    <ClInclude Include="teste_repo.h">
+      <Filter>Header Files\teste</Filter>
+    </ClInclude>
+    <ClInclude Include="teste_service.h">
+      <Filter>Header Files\teste</Filter>
+    </ClInclude>
+    <ClInclude Include="teste_validator.h">
+      <Filter>Header Files\teste</Filter>
+    </ClInclude>
+    <ClInclude Include="tester.h">
+      <Filter>Header Files\teste</Filter>
+    </ClInclude>
+    <ClInclude Include="gui.h">
+      <Filter>Header Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="cosCrudGui.h">
+      <Filter>Header Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="observer.h">
+      <Filter>Header Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="cosReadOnlyGui.h">
+      <Filter>Header Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="gui_VM.h">
+      <Filter>Header Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Models.h">
+      <Filter>Header Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="repository.h">
+      <Filter>Header Files\teste</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="date.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="test.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="test2.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="date_activitati.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test3.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="MulteDate.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="C:\Users\catab\Downloads\carne.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="melc.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
