@@ -9,6 +9,7 @@ This small project was created for the purpose of learning c++ software developm
 * **Unit Testing**
 
 ### Tech Stack
-* **C++17/20**
+* **C++**
 * **Qt Framework**
 * **STL**
+* **Visual Studio**
