@@ -25,6 +25,6 @@ A desktop activities management application developed during the Object-Oriented
 
 ## Tech Stack
 
-* **Language:** C++ (Modern Standard)
+* **Language:** C++
 * **UI Framework:** Qt Framework
 * **IDE:** Microsoft Visual Studio
