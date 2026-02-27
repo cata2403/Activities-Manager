@@ -7,7 +7,7 @@ A desktop activities management application developed during the Object-Oriented
 ## Key Features
 
 * **Full CRUD System:** Add, delete, modify, and view tasks.
-* **Undo Functionalitly:** Elegantly implemented via **polymorphism**, allowing users to revert previous actions.
+* **Undo Functionalitly:** Implemented via **polymorphism**, allowing users to revert previous actions.
 * **Filtering & Sorting:** Algorithms for organizing data based on various criteria.
 * **Multiple Windows:** Synchronized data visualization across multiple UI windows.
 * **Custom Model (Qt Model-View Architecture):** Utilized a custom model to efficiently manage large volumes of data, optimizing memory usage and rendering speed.
