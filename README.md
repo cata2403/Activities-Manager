@@ -1,6 +1,6 @@
 # Activities Manager - C++ & Qt
 
-A desktop activities management application developed during the Object-Oriented Programming (OOP) course. This project served as a foundation for mastering intermediate-to-advanced C++ concepts and developing graphical user interfaces using the Qt framework.
+A desktop activities management application developed during the Object-Oriented Programming (OOP) course. Through this project, I explored core C++ mechanisms beyond the basics, while gaining hands-on experience in building UIs with Qt.
 
 ---
 
