@@ -18,7 +18,6 @@ A desktop activities management application developed during the Object-Oriented
 
 * **Layered Architecture:** Clear separation between Domain, Repository, Service, and UI (Qt).
 * **Polymorphism:** Leveraged for the **Undo** system using abstract `UndoAction` classes.
-* **Memory Management:** Rigorous handling of resources (pointers, dynamic memory) to prevent memory leaks.
 * **Unit Testing:** Extensive code coverage through unit tests to ensure business logic integrity.
 
 ---
